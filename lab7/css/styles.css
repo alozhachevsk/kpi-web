@@ -1,0 +1,56 @@
+.buttons {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.btn {
+	background: #629ff8;
+	border: 0;
+	padding: 10px 25px;
+	margin-right: 20px;
+	border-radius: 5px;
+	transition: 200ms ease-in-out;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: .4px;
+}
+
+.btn:hover {
+	background: #2e7ee7;
+}
+
+.users {
+	display: flex;
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #cddaed;
+	border-radius: 10px;
+	padding: 20px;
+	flex: 1;
+	margin: 15px;
+	font-family: Arial, sans-serif;
+	color: #404040;
+}
+
+.user div:not(.photo) {
+	padding: 10px 0; 
+}
+
+.photo {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 128px;
+	height: 128px;
+}
+
+.photo img {
+	width: 100%;
+}
+
